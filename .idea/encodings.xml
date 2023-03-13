@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/controller/admin/BaseController.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/controller/before/BaseBeforeController.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/controller/before/EmailController.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/controller/before/NavigateController.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/controller/before/UserController.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/controller/before/ValidateCodeController.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/exception/MyExceptionHandler.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/service/admin/AdminEmailAndUserServiceImpl.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/service/admin/AdminServiceImpl.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/service/before/EmailServiceImpl.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/service/before/UserServiceImpl.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/util/MyUtil.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" charset="UTF-8" />
+    <file url="PROJECT" charset="GBK" />
+  </component>
+</project>

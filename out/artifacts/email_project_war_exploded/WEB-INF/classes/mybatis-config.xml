@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+  <!--  声明相关数据库信息的别名别名-->
+    <typeAliases>
+        <typeAlias alias="Auser" type="com.po.Auser"/>
+        <typeAlias alias="Buser" type="com.po.Buser"/>
+        <typeAlias alias="Email" type="com.po.Email"/>
+        <typeAlias alias="Rsrecordtable" type="com.po.Rsrecordtable"/>
+    </typeAliases>
+   <!-- 关联我们定义的一个个Mapper类-->
+    <mappers>
+        <mapper resource="mybatis/admin/AdminMapper.xml"/>
+        <mapper resource="mybatis/before/UserMapper.xml"/>
+        <mapper resource="mybatis/before/EmailMapper.xml"/>
+    </mappers>
+</configuration>
+

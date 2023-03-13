@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.UserDao">
+<!--查询账号密码与数据库中数据是否匹配，且账号未被锁定，即可成功登录-->
+	<select id="login"  resultType="Buser" parameterType="Buser">
+		select * from busertable where bemail =  #{bemail} and bpwd = #{bpwd} and islock = 0
+	</select>
+	<!--用户注册信息插入数据库-->
+	<insert id="register" parameterType="Buser">
+		insert into busertable (id, bemail, bpwd) values (null, #{bemail}, #{bpwd})
+	</insert>
+<!--	更改密码，并修改数据库中数据-->
+	<update id="update" parameterType="Buser">
+		update busertable set bpwd = #{bpwd} where id = #{id}
+	</update>
+</mapper>
